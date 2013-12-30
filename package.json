@@ -1,12 +1,42 @@
 {
   "name": "yukihyo",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "This is an awesome project to make everyone happy!",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "grunt build",
+    "test": "grunt test",
+    "doc": "grunt doc"
+  },
+  "engines" : { "node" : ">=0.8.0" },
+  "keywords": [
+    "jsx",
+    "altjs",
+    "lib",
+    "js",
+    "amd",
+    "commonjs",
+    "nodejs",
+    "browser"
+  ],
+  "main": "./lib/yukihyo.jsx",
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "directories": {
+    "doc": "./doc",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git:/github.com/ktzw/yukihyo.git"
   },
   "devDependencies": {
-    "jsx": "~0.9.72",
-    "jsx-init": "~0.3.3"
-  }
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1",
+    "grunt-jsx": ">=0.1.5"
+  },
+  "author": "ktzw",
+  "license": "Public-Domain"
 }
