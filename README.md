@@ -125,11 +125,6 @@ $ grunt build
 $ grunt doc
 ```
 
-Author
----------
-
-* ktzw / kitazawa.yoshiro@gmail.com
-
 License
 ------------
 
