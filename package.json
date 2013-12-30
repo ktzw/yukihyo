@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "jsx": "~0.9.72"
+    "jsx": "~0.9.72",
+    "jsx-init": "~0.3.3"
   }
 }
