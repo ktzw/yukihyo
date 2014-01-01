@@ -10,6 +10,7 @@
     "jsx": "~0.9.72",
     "grunt": "~0.4.2",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-jsx": ">=0.1.5"
+    "grunt-jsx": ">=0.1.5",
+    "mizuki.jsx": "~0.1.1"
   }
 }

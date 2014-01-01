@@ -21,13 +21,13 @@ module.exports = function(grunt) {
       build: {
         src:'lib/yukihyo.jsx',
         dest: 'dest/yukihyo.js',
-        add_search_path: ['<%= libDir %>'],
+        add_search_path: ['<%= libDir %>', 'node_modules/mizuki.jsx/lib'],
         release: true,
         minify: true
       },
       test: {
         src: ['<%= testDir %>/*.jsx'],
-        add_search_path: ['<%= libDir %>'],
+        add_search_path: ['<%= libDir %>', 'node_modules/mizuki.jsx/lib'],
         test: true
       }
     }
