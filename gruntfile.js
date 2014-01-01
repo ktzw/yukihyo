@@ -12,7 +12,7 @@ module.exports = function(grunt) {
     watch: {
       sample: {
         files: ['<%= sampleDir %>/*.jsx', '<%= libDir %>/*.jsx'],
-        tasks: ['jsx:build']
+        tasks: ['build']
       },
       test: {
         files: ['<%= testDir %>/*.jsx', '<%= libDir %>'],
