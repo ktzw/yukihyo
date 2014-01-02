@@ -10,7 +10,7 @@
     <div class="container">
       <div id="settings">
       </div>
-      <form role="form">
+      <form id="form" role="form">
         <div class="row">
           <div class="form-group col-xs-4">
             <select id="pay" class="form-control">
@@ -25,6 +25,19 @@
         </div>
         <input type="submit" class="btn btn-default" value="OK">
       </form>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>point</th>
+            <th>tip</th>
+            <th>total</th>
+          </tr>
+        </thead>
+        <tfoot>
+        </tfoot>
+        <tbody id="result-tbody">
+        </tbody>
+      </table>
     </div>
 
     <script src="http://code.jquery.com/jquery.js"></script>
